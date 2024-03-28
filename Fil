@@ -1,1 +1,12 @@
+POST /api/v1/accounts/send_signup_sms_code/ HTTP/
+Host: i.instagram.com
+-other headers-
 
+signed_body=SIGNATURE.{
+  "phone_id": "redacted",
+  "phone_number": "01876602870",
+  "guid": "redacted",
+  "device_id": "redacted",
+  "android_build_type": "release",
+  "waterfall_id": "redacted"
+}
